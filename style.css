@@ -27,10 +27,15 @@ h1{
 /* ########################################### */
 /*           inicio.html                       */
 /* ########################################### */
-.container{
+.container {
     margin: 20px;
     padding: 20px;
+    background-color: #111314;
+    border-radius: 10px;
+    max-width: 100%; 
+    margin: auto;
 }
+
 
 .subforum{
     margin-top:20px;
@@ -456,6 +461,14 @@ footer{
 
 /* Formulario de registro */
 
+.container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #111314;
+    border-radius: 10px;
+    margin: auto; 
+}
+
 .registration-form {
     margin: 20px;
     padding: 20px;
@@ -505,8 +518,7 @@ footer{
     padding: 20px;
     background-color: #111314;
     border-radius: 10px;
-    max-width: 400px;
-    margin: auto;
+    margin: auto; 
 }
 
 .login-title {
