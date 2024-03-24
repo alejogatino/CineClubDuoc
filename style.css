@@ -454,7 +454,50 @@ footer{
     border: solid 1px #000000;
 }
 
+/* formulario */
 
+.registration-form {
+    margin: 20px;
+    padding: 20px;
+    background-color: #111314;
+    border-radius: 10px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  
 
 
 
