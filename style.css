@@ -78,6 +78,12 @@ h1{
     display: none;   
 }
 
+.subforum-icon img {
+    max-width: 100%; /* Ajusta el ancho máximo de la imagen */
+    height: auto; /* Mantiene la proporción de aspecto */
+    display: block; /* Evita espacios no deseados alrededor de la imagen */
+    border-radius: 10px;
+}
 
 /* For the smartphones */
 @media screen and (max-width: 460px) {
@@ -232,6 +238,15 @@ header{
     display:flex;
     justify-content: center;
     box-shadow:1px 2px 3px #2C2C2C;
+}
+
+
+.search-box {
+    background-image: url('img/b6GzGVf\ \(1\).jpg'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover; /* Ajusta la imagen al tamaño de la caja */
+    background-position: center; /* Centra la imagen */
+    padding: 20px; /* Ajusta el espaciado interno según tus necesidades */
+    color: #ffffff; /* Color del texto */
 }
 
 .search-box select{
@@ -431,7 +446,7 @@ footer{
     border:none;
     padding:10px;
     font-weight: bolder;
-    box-shadow: 4px 6px #fff;
+   
     cursor: pointer;
     float: right;
 }
